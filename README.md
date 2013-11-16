@@ -7,3 +7,7 @@ To run the tests, follow these steps:
 	2. cd zarcity-functional-tests/functional_tests
 	3. bundle install
 	4. cucumber
+	
+The results of the tests can be found in the report:
+
+	zarcity-functional-tests/reports/reports.html

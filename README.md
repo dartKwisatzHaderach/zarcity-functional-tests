@@ -10,4 +10,4 @@ To run the tests, follow these steps:
 	
 The results of the tests can be found in the report:
 
-	zarcity-functional-tests/reports/reports.html
+	zarcity-functional-tests/functional_tests/reports/reports.html

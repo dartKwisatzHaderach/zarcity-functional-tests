@@ -5,7 +5,7 @@ Feature: Sign in
 	
 	Scenario: Pass 'Sign in' form
 		Given I am a registered user on 'Sign in' page
-		When I fill 'Email' field
-		And I fill 'Password' field
+		When I fill 'Email' field with "username1@mail.ru"
+		And I fill 'Password' field with "qwerty123"
 		And I push 'Sign in' button
 		Then I should see welcome message on main page

@@ -5,6 +5,6 @@ Feature: Open Registration page
 	But I am non registered user
 		
 	Scenario: Go to registration page
-		Given I am non registered user
+		Given I am non registered user on 'Sign in' page
 		When I push 'Registration' button
 		Then I should see "Регистрация" on page

@@ -1,4 +1,4 @@
-Given(/^I am non registered user$/) do
+Given(/^I am non registered user on 'Sign in' page$/) do
   visit_page(SignInPage)
 end
 

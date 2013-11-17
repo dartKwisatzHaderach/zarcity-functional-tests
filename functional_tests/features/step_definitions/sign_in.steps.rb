@@ -15,5 +15,6 @@ When(/^I push 'Sign in' button$/) do
 end
 
 Then(/^I should see "(.*?)" in header$/) do |expected|
+  sleep(1)
   on_page(MainPage).text.should include expected
 end

@@ -3,5 +3,6 @@ When(/^I push 'Restore password' link$/) do
 end
 
 Then(/^I should see 'Restore password' page$/) do
+  sleep(1)
   on_page(RestorePasswordPage).restore_password?.should be true
 end

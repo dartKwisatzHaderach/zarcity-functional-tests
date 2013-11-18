@@ -10,6 +10,7 @@ class SignInPage
   
   button(:login, :value => "Вход на сайт")
   link(:registration, :text => "Зарегистрироваться")
+  link(:restore_password, :text => "Забыли пароль?")
   
   def login_with(username, password)
     self.username = username

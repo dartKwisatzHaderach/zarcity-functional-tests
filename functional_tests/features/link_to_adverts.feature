@@ -1,3 +1,4 @@
+@adverts
 Feature: Look for adverts
 	As a user
 	I want to find advert

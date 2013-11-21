@@ -3,6 +3,7 @@ When(/^I push 'Adverts' link$/) do
 end
 
 Then(/^I should see 'Adverts' page$/) do
-  on_page(AdvertsPage).add_advert?.should be true
+	sleep(1)
+	on_page(AdvertsPage).should have_expected_title
 end
 
